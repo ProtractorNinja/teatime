@@ -4,10 +4,10 @@ Tea Time is a Minecraft editor I write back in 2011. It doesn't work any more (t
 Feel free to do whatever you wish with it.
 
 # Original readme.txt
-T.E.A.T.I.M.E.
-Current version : 1.0 Beta
-Changelog:
-    2011.03.31 Initial Release
+T.E.A.T.I.M.E.  
+Current version : 1.6  
+Changelog:  
+> 2011.03.31 Initial Release
 
 Created by the Protractor Ninja Bugs? Glitches? Other mysterious
 problems? Please, do some research first. But if you can't solve your
@@ -27,14 +27,14 @@ Tea Time is a Minecraft inventory and world data editor, written in pure
 Java. Its goal is to be easy to use, portable, and cross platform.
 Please enjoy.
 
-ITEMS.TXT GUIDE 
+## ITEMS.TXT GUIDE 
 The available items list in Tea Time is regulated by a
 file in the /lib/ directory, called items.txt. This file has two types
 of entries, items and groups. Lines starting with a hash (#) or empty
 lines are ignored.
 
 Items must be presented in this syntax:
-id(1) name(2) location(3) coordinates(4) special(5)(optional)
+`id(1) name(2) location(3) coordinates(4) special(5)(optional)`
 
 1. The id of the item can be any number, but must be numerical.
 2. The name of the item can either be an entry in the en_us.lang
@@ -75,8 +75,8 @@ Groups must be presented in this syntax:
 
 Simple, right?
 
+### KEYBOARD SHORTCUTS (Inventory Tab)
 ```
-SHORTCUTS (Inventory Tab)
 Dragging from the items list:
     Ctrl + drag to inventory slot : Fill row with maximum count of the item
     Alt + drag to inventory slot  : Fill column with max. count of the item
