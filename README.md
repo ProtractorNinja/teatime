@@ -1,13 +1,11 @@
 # T.E.A.T.I.M.E.
-Tea Time is a Minecraft editor I write back in 2011. It doesn't work any more (thanks to some game-changing updates that I was too tired to change), but I figured I'd put the source code here anyways -- moreso for keeping track of than for anything else. The files contained within reflect a snippet of my past, terrible practices and all. I haven't changed anything aside from adjusting the directory hierarchy a little and removing some old information from the original readme, which is below.
+Tea Time is a Minecraft editor I write back in 2011. It doesn't work any more (thanks to some game-changing updates that I was too tired to implement fixes for), but I figured I'd put the source code here anyway - moreso for keeping track of than for anything else. This project reflects a snippet of my past, terrible practices and all, but since it was my first complete program I have a special place in my heart for it. I haven't changed anything aside from adjusting the directory hierarchy a little, removing some pointless data, and adding Markdown compatibility to the original readme, which is below.
 
 Feel free to do whatever you wish with it.
 
 # Original readme.txt
 T.E.A.T.I.M.E.  
-Current version : 1.6  
-Changelog:  
-> 2011.03.31 Initial Release
+Current version: Release for MC 1.8 (?)
 
 Created by the Protractor Ninja Bugs? Glitches? Other mysterious
 problems? Please, do some research first. But if you can't solve your
@@ -51,12 +49,9 @@ Items must be presented in this syntax:
     the given item's respective location(3). 0,0 will be the top-left
     tile of an image.
 5. Optional arguments can be one of three things.
-    a. a + sign followed by a number - this is the maximum possible damage
-        of an item. This is not currently used, but it may be later.
-    b. an "x" followed by a number - this is the maximum count of the item.
-        normally, this number defaults to 64.
-    c. just a number - this is the permanent damage value of the item, used
-        for items with a specific damage value such as wool, dye, or wood.
+    1. A `+` followed by a number - this is the maximum possible damage of an item. This is not currently used, but it may be later.
+    2. An `x` followed by a number - this is the maximum count of the item. Normally, this number defaults to 64.
+    3. Just a number - this is the permanent damage value of the item, used for items with a specific damage value such as wool, dye, or wood.
 
 * At least 4 arguments must be filled, otherwise Tea Time will crash.
 
