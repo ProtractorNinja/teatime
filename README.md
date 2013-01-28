@@ -75,7 +75,7 @@ Groups must be presented in this syntax:
 
 Simple, right?
 
-
+```
 SHORTCUTS (Inventory Tab)
 Dragging from the items list:
     Ctrl + drag to inventory slot : Fill row with maximum count of the item
@@ -91,76 +91,77 @@ From the inventory slots
     Left click + drag             : Switch items, or if items are the same (either by id or by id and special damage values) combine them
     Ctrl + drag                   : Copy the item to the destination slot
     Alt + drag                    : Replace whatever item is in the destination with the source item
+```
 
 # Original Planning Document
 Main.class
     + Starts everything up and going. Logs starting time, initiates the registry, and initiates the Tea Time window.
     
 Registry.class
-    + Links to other important classes (and static variables) that provide functions which need to be accessible to all teatime instances, e.g.:
-    - Build.class (Reg.build)
-        + Functions for building certain GUI elements easily
-    - Util.class (Reg.util)
-        + Utility functions for things like getting the minecraft folder location
-    - XML.class (Reg.xml)
-        + Accessor for serializing/deserializing stuff via XML.
+- Links to other important classes (and static variables) that provide functions which need to be accessible to all teatime instances, e.g.:
+- Build.class (Reg.build)
+    - Functions for building certain GUI elements easily
+- Util.class (Reg.util)
+    - Utility functions for things like getting the minecraft folder location
+- XML.class (Reg.xml)
+    - Accessor for serializing/deserializing stuff via XML.
     
 TeaTime.class
-    + The main window. Acts as a container for a variety of stuff, such as:
-        - The menu bar
-            + Load Menu
-                - Load any world in MC directory
-                - Browse for a world
-            + Save Menu
-                - Save to loaded world
-                - Save to a new world
-                - Save INVENTORY ONLY to another world (maybe)
-            + Schemes Menu
-                - Load Scheme
-                - Save Scheme
-                - Delete Scheme
-            + Tools Menu
-                - Show / Hide Advanced editor
-                - Open item list manager
-            + About Menu
-                - Display about dialog
-                - Go to protractorninja.net
-        - The tab pane, which includes tabs for:
-            + Inventory editing
-                - Inventory pane
-                    + Armor slots
-                    + Inventory Slots
-                    + Quick Slots
-                    + Tool slots (^ is shift, @ is alt)
-                        - Fill
-                            + Click   - 
-                            + ^Click  -
-                            + @Click  -
-                            + ^@Click -
-                        - Trash
-                            + Click   - 
-                            + ^Click  -
-                            + @Click  -
-                            + ^@Click -
-                        - Repair
-                            + Click   - 
-                            + ^Click  -
-                            + @Click  -
-                            + ^@Click -
-                - Advanced editor pane
-                - Name pane
-                - Items tab pane
-            + Level data editing
-            + Map data editing ( location and scale only; very simple )
+- The main window. Acts as a container for a variety of stuff, such as:
+    - The menu bar
+        - Load Menu
+            - Load any world in MC directory
+            - Browse for a world
+        - Save Menu
+            - Save to loaded world
+            - Save to a new world
+            - Save INVENTORY ONLY to another world (maybe)
+        - Schemes Menu
+            - Load Scheme
+            - Save Scheme
+            - Delete Scheme
+        - Tools Menu
+            - Show / Hide Advanced editor
+            - Open item list manager
+        - About Menu
+            - Display about dialog
+            - Go to protractorninja.net
+    - The tab pane, which includes tabs for:
+        - Inventory editing
+            - Inventory pane
+                - Armor slots
+                - Inventory Slots
+                - Quick Slots
+                - Tool slots (^ is shift, @ is alt)
+                    - Fill
+                        - Click   - 
+                        - ^Click  -
+                        - @Click  -
+                        - ^@Click -
+                    - Trash
+                        - Click   - 
+                        - ^Click  -
+                        - @Click  -
+                        - ^@Click -
+                    - Repair
+                        - Click   - 
+                        - ^Click  -
+                        - @Click  -
+                        - ^@Click -
+            - Advanced editor pane
+            - Name pane
+            - Items tab pane
+        - Level data editing
+        - Map data editing ( location and scale only; very simple )
             
 Item.class
-    + Contains item data. Fields for:
-        - Name
-        - ID
-        - Damage
-        - Count
-        - Editable (Boolean)
-        - Icon
+- Contains item data. Fields for:
+    - Name
+    - ID
+    - Damage
+    - Count
+    - Editable (Boolean)
+    - Icon
 
 # Original Todo document
 
