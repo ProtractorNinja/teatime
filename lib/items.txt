@@ -1,0 +1,283 @@
+tea#            Blocks
+# ID  NAME                   FILE         CORDS   DAMAGE
+   1  tile.stone             terrain.png  1,0
+   2  tile.grass             terrain.png  3,0
+   3  tile.dirt              terrain.png  2,0
+   4  tile.stonebrick        terrain.png  0,1
+   5  tile.wood              terrain.png  4,0
+   6  tile.sapling           terrain.png  15,0   0
+   6  "Spruce_Sapling"       terrain.png  15,3   1
+   6  "Birch_Sapling"        terrain.png  15,4   2
+   7  tile.bedrock           terrain.png  1,1
+   8  tile.water             terrain.png  15,13
+   9  "Still_Water"          terrain.png  15,13
+  10  tile.lava              terrain.png  15,15
+  11  "Still_Lava"           terrain.png  15,15
+  12  tile.sand              terrain.png  2,1
+  13  tile.gravel            terrain.png  3,1
+  14  tile.oreGold           terrain.png  0,2
+  15  tile.oreIron           terrain.png  1,2
+  16  tile.oreCoal           terrain.png  2,2
+  17  tile.log               terrain.png  4,1    0
+  17  tile.log               terrain.png  4,7    1
+  17  tile.log               terrain.png  5,7    2
+  18  tile.leaves            terrain.png  4,3
+  19  tile.sponge            terrain.png  0,3
+  20  tile.glass             terrain.png  1,3
+  21  tile.oreLapis          terrain.png  0,10
+  22  tile.blockLapis        terrain.png  0,9
+  23  tile.dispenser         terrain.png  14,2
+  24  tile.sandStone         terrain.png  0,12
+  25  tile.musicBlock        terrain.png  10,4
+  26  tile.bed               terrain.png  7,8
+  27  tile.goldenRail        terrain.png  3,10
+  28  tile.detectorRail      terrain.png  3,12
+  29  tile.pistonStickyBase  terrain.png  10,6
+  30  tile.web               terrain.png  11,0
+  33  tile.pistonBase        terrain.png  11,6
+  35  tile.cloth.white       terrain.png  0,4    0
+  35  tile.cloth.orange      terrain.png  2,13   1
+  35  tile.cloth.magenta     terrain.png  2,12   2
+  35  tile.cloth.lightBlue   terrain.png  2,11   3
+  35  tile.cloth.yellow      terrain.png  2,10   4
+  35  tile.cloth.lime        terrain.png  2,9    5
+  35  tile.cloth.pink        terrain.png  2,8    6
+  35  tile.cloth.gray        terrain.png  2,7    7
+  35  tile.cloth.silver      terrain.png  1,14   8
+  35  tile.cloth.cyan        terrain.png  1,13   9
+  35  tile.cloth.purple      terrain.png  1,12   10
+  35  tile.cloth.blue        terrain.png  1,11   11
+  35  tile.cloth.brown       terrain.png  1,10   12
+  35  tile.cloth.green       terrain.png  1,9    13
+  35  tile.cloth.red         terrain.png  1,8    14
+  35  tile.cloth.black       terrain.png  1,7    15
+  37  tile.flower            terrain.png  13,0
+  38  tile.rose              terrain.png  12,0
+  39  tile.mushroom          terrain.png  13,1
+  40  tile.mushroom          terrain.png  12,1
+  41  tile.blockGold         terrain.png  7,1
+  42  tile.blockIron         terrain.png  6,1
+  43  "Double_Stone_Slab"    terrain.png  5,0    0
+  43  "Double_Sand_Slab"     terrain.png  5,0    1
+  43  "Double_Wood_Slab"     terrain.png  5,0    2
+  43  "Double_Cobble_Slab"   terrain.png  5,0    3
+  44  tile.stoneSlab.stone   special.png  0,0    0
+  44  tile.stoneSlab.sand    special.png  3,2    1
+  44  tile.stoneSlab.wood    special.png  1,2    2
+  44  tile.stoneSlab.cobble  special.png  2,2    3
+  45  tile.brick             terrain.png  7,0
+  46  tile.tnt               terrain.png  8,0
+  47  tile.bookshelf         terrain.png  3,2
+  48  tile.stoneMoss         terrain.png  4,2
+  49  tile.obsidian          terrain.png  5,2
+  50  tile.torch             terrain.png  0,5
+  51  tile.fire              special.png  1,0
+  52  tile.mobSpawner        terrain.png  1,4
+  53  tile.stairsWood        special.png  3,0
+  54  tile.chest             terrain.png  11,1
+  55  tile.redstoneDust      terrain.png  4,5
+  56  tile.oreDiamond        terrain.png  2,3
+  57  tile.blockDiamond      terrain.png  8,1
+  58  tile.workbench         terrain.png  12,3
+  59  tile.crops             terrain.png  15,5
+  60  tile.farmland          terrain.png  7,5
+  61  tile.furnace           terrain.png  12,2
+  62  "Lit_Furnace"          terrain.png  13,3
+  63  "Sign_Block"           terrain.png  0,0
+  64  "Wooden_Door_Block"    terrain.png  1,6
+  65  tile.ladder            terrain.png  3,5
+  66  tile.rail              terrain.png  0,8
+  67  tile.stairsStone       special.png  4,0
+  68  "Wall_Sign"            terrain.png  4,0
+  69  tile.lever             terrain.png  0,6
+  70  tile.pressurePlate     special.png  0,1
+  71  "Iron_Door_Block"      terrain.png  2,6
+  72  tile.pressurePlate     special.png  1,1
+  73  tile.oreRedstone       terrain.png  3,3
+  74  "Glowing_Redstone_Ore" terrain.png  3,3
+  75  tile.notgate           terrain.png  3,7
+  76  "Lit_Redstone_Torch"   terrain.png  3,6
+  77  tile.button            special.png  2,1
+  78  "Snow_Layer"           special.png  3,1
+  79  tile.ice               terrain.png  3,4
+  80  tile.snow              terrain.png  2,4
+  81  tile.cactus            terrain.png  6,4
+  82  tile.clay              terrain.png  8,4
+  83  tile.reeds             terrain.png  9,4
+  84  tile.jukebox           terrain.png  11,4
+  85  tile.fence             special.png  2,0
+  86  tile.pumpkin           terrain.png  7,7
+  87  tile.hellrock          terrain.png  7,6
+  88  tile.hellsand          terrain.png  8,6
+  89  tile.lightgem          terrain.png  9,6
+  90  tile.portal            special.png  4,1
+  91  tile.litpumpkin        terrain.png  8,7
+  92  tile.cake              special.png  0,2
+  93  "Redstone_Repeater_Off" terrain.png 3,8
+  94  "Redstone_Repeater_On" terrain.png  3,9
+  95  tile.lockedchest       terrain.png  11,1
+  96  tile.trapdoor			 special.png  4,2
+  97 "Stonefish_Block"       terrain.png  1,0
+  98 tile.stonebricksmooth   terrain.png  6,3
+  99 "Brown_Mushroom_Block"  terrain.png  14,7
+ 100 "Red_Mushroom_Block"    terrain.png  13,7
+ 101 tile.fenceIron          terrain.png  5,5
+ 102 tile.thinGlass          terrain.png  1,3
+ 103 tile.melon              terrain.png  8,8
+ 104 "Pumpkin_Stem"          terrain.png  15,6
+ 105 "Melon_Stem"            terrain.png  15,6
+ 106 tile.vine               terrain.png  15,8
+ 107 tile.fenceGate          special.png  2,0
+ 108 tile.stairsBrick        terrain.png  7,0
+ 109 tile.stairsStoneBrickSmooth terrain.png 6,3
+
+#            Items
+# ID  NAME                   FILE       CORDS  DAMAGE
+ 256  item.shovelIron        items.png  2,5    +250
+ 257  item.pickaxeIron       items.png  2,6    +250
+ 258  item.hatchetIron       items.png  2,7    +250
+ 259  item.flintAndSteel     items.png  5,0    +64
+ 260  item.apple             items.png  10,0   
+ 261  item.bow               items.png  5,1    x1
+ 262  item.arrow             items.png  5,2
+ 263  item.coal              items.png  7,0    0
+ 263  item.charcoal          items.png  7,0    1
+ 264  item.emerald           items.png  7,3
+ 265  item.ingotIron         items.png  7,1
+ 266  item.ingotGold         items.png  7,2
+ 267  item.swordIron         items.png  2,4    +250
+ 268  item.swordWood         items.png  0,4    +59
+ 269  item.shovelWood        items.png  0,5    +59
+ 270  item.pickaxeWood       items.png  0,6    +59
+ 271  item.hatchetWood       items.png  0,7    +59
+ 272  item.swordStone        items.png  1,4    +131
+ 273  item.shovelStone       items.png  1,5    +131
+ 274  item.pickaxeStone      items.png  1,6    +131
+ 275  item.hatchetStone      items.png  1,7    +131
+ 276  item.swordDiamond      items.png  3,4    +1561
+ 277  item.shovelDiamond     items.png  3,5    +1561
+ 278  item.pickaxeDiamond    items.png  3,6    +1561
+ 279  item.hatchetDiamond    items.png  3,7    +1561
+ 280  item.stick             items.png  5,3
+ 281  item.bowl              items.png  7,4    x1
+ 282  item.mushroomStew       items.png  8,4    x1
+ 283  item.swordGold         items.png  4,4    +32
+ 284  item.shovelGold        items.png  4,5    +32
+ 285  item.pickaxeGold       items.png  4,6    +32
+ 286  item.hatchetGold       items.png  4,7    +32
+ 287  item.string            items.png  8,0
+ 288  item.feather           items.png  8,1
+ 289  item.sulphur           items.png  8,2
+ 290  item.hoeWood           items.png  0,8    +59
+ 291  item.hoeStone          items.png  1,8    +131
+ 292  item.hoeIron           items.png  2,8    +250
+ 293  item.hoeDiamond        items.png  3,8    +1561
+ 294  item.hoeGold           items.png  4,8    +32
+ 295  item.seeds             items.png  9,0
+ 296  item.wheat             items.png  9,1
+ 297  item.bread             items.png  9,2    x1
+ 298  item.helmetCloth       items.png  0,0    +34
+ 299  item.chestplateCloth   items.png  0,1    +48
+ 300  item.leggingsCloth     items.png  0,2    +46
+ 301  item.bootsCloth        items.png  0,3    +40
+ 302  item.helmetChain       items.png  1,0    +68
+ 303  item.chestplateChain   items.png  1,1    +96
+ 304  item.leggingsChain     items.png  1,2    +92
+ 305  item.bootsChain        items.png  1,3    +80
+ 306  item.helmetIron        items.png  2,0    +136
+ 307  item.chestplateIron    items.png  2,1    +192
+ 308  item.leggingsIron      items.png  2,2    +184
+ 309  item.bootsIron         items.png  2,3    +160
+ 310  item.helmetDiamond     items.png  3,0    +272
+ 311  item.chestplateDiamond items.png  3,1    +384
+ 312  item.leggingsDiamond   items.png  3,2    +368
+ 313  item.bootsDiamond      items.png  3,3    +320
+ 314  item.helmetGold        items.png  4,0    +68
+ 315  item.chestplateGold    items.png  4,1    +96
+ 316  item.leggingsGold      items.png  4,2    +92
+ 317  item.bootsGold         items.png  4,3    +80
+ 318  item.flint             items.png  6,0
+ 319  item.porkchopRaw       items.png  7,5    
+ 320  item.porkchopCooked    items.png  8,5    
+ 321  item.painting          items.png  10,1   x1
+ 322  item.appleGold         items.png  11,0   
+ 323  item.sign              items.png  10,2   x1
+ 324  item.doorWood          items.png  11,2   x1
+ 325  item.bucket            items.png  10,4   x1
+ 326  item.bucketWater       items.png  11,4   x1
+ 327  item.bucketLava        items.png  12,4   x1
+ 328  item.minecart          items.png  7,8    x1
+ 329  item.saddle            items.png  8,6    x1
+ 330  item.doorIron          items.png  12,2   x1
+ 331  item.redstone          items.png  8,3
+ 332  item.snowball          items.png  14,0   x16
+ 333  item.boat              items.png  8,8    x1
+ 334  item.leather           items.png  7,6
+ 335  item.milk              items.png  13,4
+ 336  item.brick             items.png  6,1
+ 337  item.clay              items.png  9,3
+ 338  item.reeds             items.png  11,1
+ 339  item.paper             items.png  10,3
+ 340  item.book              items.png  11,3
+ 341  item.slimeball         items.png  14,1
+ 342  item.minecartChest     items.png  7,9    x1
+ 343  item.minecartFurnace   items.png  7,10   x1
+ 344  item.egg               items.png  12,0
+ 345  item.compass           special.png 5,0    x1
+ 346  item.fishingRod        items.png  5,4    x1
+ 347  item.clock             special.png  5,1    x1
+ 348  item.yellowDust        items.png  9,4
+ 349  item.fishRaw           items.png  9,5    
+ 350  item.fishCooked        items.png  10,5   
+ 351  item.dyePowder.black   items.png  14,4   0
+ 351  item.dyePowder.red     items.png  14,5   1
+ 351  item.dyePowder.green   items.png  14,6   2
+ 351  item.dyePowder.brown   items.png  14,7   3
+ 351  item.dyePowder.blue    items.png  14,8   4
+ 351  item.dyePowder.purple  items.png  14,9   5
+ 351  item.dyePowder.cyan    items.png  14,10  6
+ 351  item.dyePowder.silver  items.png  14,11  7
+ 351  item.dyePowder.gray    items.png  15,4   8
+ 351  item.dyePowder.pink    items.png  15,5   9
+ 351  item.dyePowder.lime    items.png  15,6   10
+ 351  item.dyePowder.yellow  items.png  15,7   11
+ 351  item.dyePowder.lightBlue items.png  15,8   12
+ 351  item.dyePowder.magenta items.png  15,9   13
+ 351  item.dyePowder.orange  items.png  15,10  14
+ 351  item.dyePowder.white   items.png  15,11  15
+ 352  item.bone              items.png  12,1
+ 353  item.sugar             items.png  13,0
+ 354  item.cake              items.png  13,1   
+ 355  item.bed               items.png  13,2   x1
+ 356  item.diode             items.png  6,5    
+ 357  item.cookie            items.png  12,5   x8
+ 358  item.map				 items.png  12,3
+ 359  item.shears            items.png  13,5   x1
+ 360  item.melon			 items.png  13,6  
+ 361  item.seeds_melon		 items.png  14,3
+ 362  item.seeds_pumpkin     items.png  13,3
+ 363  item.beefRaw           items.png  9,6
+ 364  item.beefCooked        items.png  10,6
+ 365  item.chickenRaw        items.png  9,7
+ 366  item.chickenCooked     items.png  10,7
+ 367  item.rottenFlesh       items.png  11,5
+ 368  item.enderPearl        items.png  11,6
+2256  "Gold_Music_Disc"      items.png  0,15   x1
+2257  "Green_Music_Disc"     items.png  1,15   x1
+
+#            Groups
+# NAME      ICON  ITEMS
+~ Blocks    2     1,2,3,12,24,13,82,4,48,67,17d0-2,5,53,47,20,44d0-3,49,79,80,78,7,45,19,87,88,46,52
+~ Plants    6     18,81,86,91,6d0-2,37,38,39,40,99,100,106,103,104,105,361,362
+~ Tools     257   269,270,271,290,273,274,275,291,256,257,258,292,277,278,279,293,284,285,286,294,259,346,50,345,347,325,359,368
+~ Weapons   267   268,272,267,276,283,261,262,332
+~ Armor     303   298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317
+~ Food      297   260,322,281,282,295,296,297,319,320,344,349,350,353,354,357,360,363,364,365,366,367
+~ Ores      56    16,15,14,56,73,21,263d0-1,265,266,264,42,41,57,22,89,348
+~ Materials 336   280,287,288,289,334,341,318,337,336,338,339,340,352
+~ Movement  328   27,28,65,66,328,342,343,333,329
+~ Logic     76    331,76,69,70,72,77,356,28,29,33
+~ Wool      35    35d0-15,351d0-15
+~ Liquids	326	  325,326,327,335,8,10
+~ Furniture 58	  58,54,61,23,25,84,2256,2257,85,321,323,324,330,96,355,107,102,101,108,109
+~ Misc      90    30,97,90,51,95

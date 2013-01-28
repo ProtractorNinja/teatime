@@ -1,0 +1,26 @@
+teatime
+	src
+		lib
+			items
+			menuIcons
+			tabIcons
+			en-us.lang
+			*other files
+		*.java
+	class
+		see above
+	build
+	
+class hierarchy
+
+TeaMain - runs the whole everything.
+TeaTime - main builder
+TeaResources (Static) - utilities
+TeaMouseAdapter - Mouse Adapter.
+TeaTransfer - Transfer Handler class
+
+Tag, Item, Slot, InvSlot, ItemSlot, ToolSlot (aka ToolButton) - individual classes of use.
+Tag, Item, Slot, SlotInv, SlotItem, SlotTool instead?
+
+TabInventory rather than InventoryTab?
+	
