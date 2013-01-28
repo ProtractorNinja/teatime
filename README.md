@@ -1,6 +1,6 @@
 # T.E.A.T.I.M.E.
 ### The Extraordinary, Amazing, Terrific, Incredible Minecraft Editor
-Tea Time is a Minecraft editor I write back in 2011. It doesn't work any more (thanks to some game-changing updates that I was too tired to implement fixes for), but I figured I'd put the source code here anyway - moreso for keeping track of than for anything else. This project reflects a snippet of my past, terrible practices and all, but since it was my first complete program I have a special place in my heart for it. I haven't changed anything aside from adjusting the directory hierarchy a little, removing some pointless data, and adding Markdown compatibility to the original readme, which is below.
+Tea Time is a Minecraft editor I write back in 2011. **It doesn't work any more** (thanks to some game-changing updates that I was too tired to implement fixes for), but I figured I'd put the source code here anyway - moreso for keeping track of than for anything else. This project reflects a snippet of my past, terrible practices and all, but since it was my first complete program I have a special place in my heart for it. I haven't changed anything aside from adjusting the directory hierarchy a little, removing some pointless data, and adding Markdown compatibility to the original readme, which is below.
 
 Feel free to do whatever you wish with it.
 
