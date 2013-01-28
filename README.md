@@ -60,8 +60,8 @@ id(1) name(2) location(3) coordinates(4) special(5)(optional)
 
 * At least 4 arguments must be filled, otherwise Tea Time will crash.
 
-Groups must be presented in this syntax:
-~ name(1) iconid(2) id,id,id,id(3)
+Groups must be presented in this syntax:  
+`~ name(1) iconid(2) id,id,id,id(3)`
 
 1. The name of the group is what is displayed on the group's tab in Tea Time.
 2. The iconid will determine what item's icon will be displayed on the tab,
@@ -95,7 +95,7 @@ From the inventory slots
 
 # Original Planning Document
 Main.class
-    + Starts everything up and going. Logs starting time, initiates the registry, and initiates the Tea Time window.
+- Starts everything up and going. Logs starting time, initiates the registry, and initiates the Tea Time window.
     
 Registry.class
 - Links to other important classes (and static variables) that provide functions which need to be accessible to all teatime instances, e.g.:
@@ -166,18 +166,16 @@ Item.class
 # Original Todo document
 
 Working on:
-    - Cross platform support (Basically just making the getMCWorldsPath() more extensible) 
-     (Mr V must test this)
+- Cross platform support (Basically just making the getMCWorldsPath() more extensible)
      
 To do:
 - More cool keyboard shortcuts!
-        - ctrl + drag to trash = kill row
-        - alt + drag to trash = kill all of the same ID
-        - select an item + mouse scroll + keyboard shortcut = good
-        
+    - ctrl + drag to trash = kill row
+    - alt + drag to trash = kill all of the same ID
+    - select an item + mouse scroll + keyboard shortcut = good
 - Organize code; Commenting /** *content */ helps.
 - Make it so that it could use texture packs in certain instances?
-- Add editing of en_us.lang names, because they suck 
+- Add editing of en_us.lang names, because they suck
 - Inventory schemes, for favorites.
 - Some kind of search dialog.
 - Operator hotkeys (F5 for refresh, ctrl-s to save, etc)
